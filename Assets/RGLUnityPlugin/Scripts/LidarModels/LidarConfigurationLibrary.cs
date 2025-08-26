@@ -129,6 +129,18 @@ namespace RGLUnityPlugin
                     maxRange = 120.0f,
                     beamDivergence = 0.13f,
                 }},
+                
+                {LidarModel.OusterOS1_128, () => new UniformRangeLidarConfiguration
+                {
+                    laserArray = LaserArrayLibrary.OusterOS1_128,
+                    horizontalResolution = 360.0f / 1024.0f,
+                    minHAngle = 0.0f,
+                    maxHAngle = 360.0f,
+                    noiseParams = LidarNoiseParams.TypicalNoiseParams,
+                    minRange = 0,
+                    maxRange = 170.0f,
+                    beamDivergence = 0.13f,
+                }},
 
                 {LidarModel.HesaiAT128E2X, () => new HesaiAT128LidarConfiguration()
                 {
