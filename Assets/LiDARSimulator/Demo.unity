@@ -2018,126 +2018,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 1389422804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1403093141, guid: b8873f7cd5fec6f49a4b37228b9b23ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 618b0e3f6c65dd247a4a016150006c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mode: 4
-  target: {fileID: 0}
-  changeCameraKey: 99
-  customCameraIndex: 0
-  timeMode: 1
-  driverCameraFov: 75
-  driver:
-    hotKey: 282
-    attachTarget: {fileID: 0}
-    enableRotation: 0
-    resetRotationOnEnable: 0
-    requireKeyPressedToRotate: 0
-    keyToRequire: 324
-    lookAtTarget: {fileID: 0}
-    horizontal:
-      angle: 0
-      mode: 1
-      targetOffset: 0
-      damped: 1
-      damping: 4
-      clamped: 1
-      minAngle: -90
-      maxAngle: 90
-    vertical:
-      angle: 0
-      mode: 1
-      targetOffset: 0
-      damped: 1
-      damping: 4
-      clamped: 1
-      minAngle: -60
-      maxAngle: 60
-    horizontalAxis: Mouse X
-    verticalAxis: Mouse Y
-    horizontalSensitivity: 4
-    verticalSensitivity: 4
-  smoothFollow:
-    hotKey: 283
-    distance: 10
-    height: 3.5
-    heightMultiplier: 1
-    heightDamping: 4.25
-    rotationDamping: 3
-    followVelocity: 1
-    velocityDamping: 5
-  orbit:
-    hotKey: 284
-    distance: 14
-    targetRelative: 0
-    resetMode: 1
-    minVerticalAngle: 1.8
-    maxVerticalAngle: 70
-    horizontalSpeed: 5
-    verticalSpeed: 2.5
-    orbitDamping: 4
-    minDistance: 3.8
-    maxDistance: 50
-    distanceSpeed: 10
-    distanceDamping: 4
-    requireKeyPressed: 0
-    requiredKey: 324
-    alternateKey: 0
-    enablePanning: 0
-    panningKey: 325
-    panningAlternateKey: 0
-    panningSpeed: 0.1
-    panningForwardSpeed: 3
-    panningDamping: 10
-    panningBounds: {x: 2, y: 1, z: 4}
-    resetPanningOnEnable: 1
-    horizontalAxis: Mouse X
-    verticalAxis: Mouse Y
-    distanceAxis: Mouse ScrollWheel
-    debugTargetGizmo: 0
-  lookAt:
-    hotKey: 285
-    damping: 8
-    adjustFov: 1
-    minFov: 1
-    maxFov: 60
-    fovSpeed: 20
-    fovDamping: 4
-    autoFov: 1
-    targetRadius: 5
-    targetRadiusSpeed: 5
-    adjustNearPlane: 0
-    nearPlaneAtMinFov: 1.5
-    fovAxis: Mouse ScrollWheel
-    enableMovement: 0
-    movementSpeed: 10
-    movementDamping: 5
-    forwardAxis: Forwards
-    sidewaysAxis: Sideways
-    upwardsAxis: Upwards
-  free:
-    hotKey: 0
-    minVerticalAngle: -60
-    maxVerticalAngle: 60
-    horizontalSpeed: 4
-    verticalSpeed: 2
-    damping: 4
-    adjustFov: 1
-    minFov: 10
-    maxFov: 60
-    fovSpeed: 20
-    fovDamping: 4
-    adjustNearPlane: 0
-    nearPlaneAtMinFov: 1.5
-    horizontalAxis: Mouse X
-    verticalAxis: Mouse Y
-    fovAxis: Mouse ScrollWheel
-    enableMovement: 1
-    movementSpeed: 20
-    movementDamping: 5
-    forwardAxis: Vertical
-    sidewaysAxis: Horizontal
-    upwardsAxis: VerticalMovement
+  m_LookSpeedController: 120
+  m_LookSpeedMouse: 4
+  m_MoveSpeed: 10
+  m_MoveSpeedIncrement: 2.5
+  m_Turbo: 10
+--- !u!1001 &1456616788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2540050958966540124, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_Name
+      value: OusterOS1-128 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2540050958966540124, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.399999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885613631526346214, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461059887804991247, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: pointSize
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885205572738262886, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885205572738262886, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885205572738262886, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885205572738262886, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051287444185131059, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: pointCloud2Publishers.Array.data[0].topic
+      value: lidar/pointcloud1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051287444185131059, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
+      propertyPath: pointCloud2Publishers.Array.data[1].topic
+      value: lidar/pointcloud_ex1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7c52ea41df6123240a67ad63e6f5ba1e, type: 3}
 --- !u!1001 &1489780512
 PrefabInstance:
   m_ObjectHideFlags: 0

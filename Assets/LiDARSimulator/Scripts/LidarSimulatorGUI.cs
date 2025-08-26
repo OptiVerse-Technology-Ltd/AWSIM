@@ -1,13 +1,13 @@
 using System;
 using UnityEngine;
-using VehiclePhysics;
+using UnityEngine.Rendering;
 
 namespace LiDARSimulator
 {
     public class LidarSimulatorGUI : MonoBehaviour
     {
         [SerializeField] private LidarSimulator _lidarSimulator;
-        [SerializeField] private VPCameraController _cameraController;
+        [SerializeField] private FreeCamera _cameraController;
         [SerializeField, Range(0, 2)] private float _targetSize = 20;
 
         private Camera _mainCamera;
@@ -47,7 +47,7 @@ namespace LiDARSimulator
         {
             GUILayout.BeginVertical(_guiStyle);
 
-            GUILayout.Label("WSAD to move, Q to ascend, E to descend");
+            GUILayout.Label("WSAD to move, E to ascend, Q to descend");
             GUILayout.Label("Esc to toggle camera movement");
 
             GUILayout.Space(8);
